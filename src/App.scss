@@ -224,61 +224,6 @@ body {
   text-shadow: none;
 }
 
-@media screen and (max-width: 600px) {
-  .App .dashboard-container {
-    min-height: 400px;
-    margin: 1rem;
-    h1 {
-      font-size: 1.5rem;
-    }
-    .drum-container .drumbtn-container {
-      padding-top: 2rem;
-      .drum-pad.btn {
-        width: 60px;
-        height: 60px;
-      }
-    }
-    .control-container .screen {
-      font-size: 1.5rem;
-    }
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .App .dashboard-container {
-    margin: 1rem;
-    flex-direction: column;
-    position: relative;
-    h1 {
-      font-size: 1.5rem;
-    }
-    .drum-container {
-      width: 100%;
-      .drumbtn-container {
-        padding-top: 2rem;
-
-        .drum-pad.btn {
-          width: 80px;
-          height: 80px;
-        }
-      }
-    }
-    .control-container {
-      width: 100%;
-      margin: 2rem 0 0 0;
-      & .power-wrapper {
-        position: absolute;
-        top: 1.5rem;
-        right: 1.5rem;
-      }
-      .screen-wrapper,
-      .volume-wrapper {
-        margin-bottom: 1rem;
-      }
-    }
-  }
-}
-
 @keyframes loadAnimation{
   0%{
     color: #e60073;
