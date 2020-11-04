@@ -294,6 +294,18 @@ class App extends React.Component {
         <div className="dashboard-container" style={this.getTextStyle()}>        
        
           <div id="display" className="control-container">
+          <div className="power-wrapper">
+              <input
+                id="power"
+                type="checkbox"
+                className="checkBox"
+                onChange={this.togglePower}
+              />
+              <label className="powerLabel" htmlFor="power">
+                <i className="fas fa-power-off fa-2x" />
+              </label>
+            </div>
+          
             <h1>Beat maker</h1>
             <div className="screen-wrapper" style={this.getBorderStyle()}>
               <div className="screen">{this.state.display}</div>
@@ -340,17 +352,6 @@ class App extends React.Component {
 
           </div>
 
-          <div className="power-wrapper">
-              <input
-                id="power"
-                type="checkbox"
-                className="checkBox"
-                onChange={this.togglePower}
-              />
-              <label className="powerLabel" htmlFor="power">
-                <i className="fas fa-power-off fa-2x" />
-              </label>
-            </div>
           </div>
         
           <div className="footer">

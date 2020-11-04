@@ -25,7 +25,6 @@ body {
   width: 360px;
   padding: 2rem;
   display: grid;
-  grid-template-columns: 95% auto;
   margin: auto;
   border-radius: 10px;
   box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2), 0 5px 40px rgba(255, 255, 255, 0.2) inset;
@@ -43,7 +42,6 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 12px;
-  margin-left: 1rem;
 }
 .App .dashboard-container .drum-container .drumbtn-container .drum-pad.btn {
   color: rgba(224, 167, 177, 0);
@@ -77,9 +75,8 @@ body {
 .App .dashboard-container .control-container h1 {
   margin: 0;
   padding: 0;
-  margin: 0 0 1.8rem 2rem;
+  margin: 1.7rem;
   text-transform: uppercase;
-  text-align: left;
   font-size: 1.9rem;
   background: radial-gradient(ellipse at center, #3a3a3a 0%, #000000 70%);
 }
@@ -92,7 +89,7 @@ body {
   border: 2px solid #E0A7B1;
   border-radius: 10px;
   background: radial-gradient(ellipse at center, #3a3a3a 0%, #000000 70%);
-  margin-left: 1rem;
+  margin: 0 1.2rem 0 1.4rem;
 }
 .App .dashboard-container .control-container .screen-wrapper .screen,
 .App .dashboard-container .control-container .screen-wrapper .volume {
@@ -100,7 +97,7 @@ body {
 }
 .App .dashboard-container .control-container .screen-wrapper .volume {
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .App .dashboard-container .control-container .volume-wrapper,
 .App .dashboard-container .control-container .bank-wrapper {
@@ -113,7 +110,7 @@ body {
   height: 3px;
   background: #E0A7B1;
   outline: none;
-  margin: 2.2rem 0 2.2rem 0.8rem;
+  margin: 2.2rem;
 }
 .App .dashboard-container .control-container .volume-slider::-webkit-slider-thumb {
   width: 80%;
@@ -128,7 +125,7 @@ body {
 .App .dashboard-container .control-container .bank-wrapper {
   justify-self: flex-end;
   display: flex;
-  margin: 2rem 0 0 1rem;
+  margin: 2rem 1rem 0;
 }
 .App .dashboard-container .control-container .bank-wrapper .toggle-text {
   display: inline-flex;
@@ -185,8 +182,6 @@ body {
 .fa-power-off {
   padding: 0;
   text-shadow: 2px 2px 20px #aaa, -2px -2px 20px #aaa, -2px 2px 20px #aaa, 2px -2px 20px #aaa;
-  margin-right: -1rem;
-  margin-top: -2rem;
   font-size: 25px;
 }
 

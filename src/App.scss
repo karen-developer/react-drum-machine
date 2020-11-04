@@ -33,7 +33,6 @@ body {
     width: 360px;
     padding: 2rem;
     display: grid;
-    grid-template-columns: 95% auto;
     margin: auto;
     border-radius: 10px;
     box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2),
@@ -51,8 +50,7 @@ body {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        grid-gap: 12px;
-        margin-left: 1rem;
+        grid-gap: 12px;     
 
         .drum-pad {
           &.btn {
@@ -90,9 +88,8 @@ body {
       h1 {
         margin: 0;        
         padding: 0;
-        margin: 0 0 1.8rem 2rem;
-        text-transform: uppercase;
-        text-align: left;
+        margin: 1.7rem;
+        text-transform: uppercase;       
         font-size: 1.9rem;
         background: $bg-light;
       }      
@@ -106,7 +103,7 @@ body {
         border: 2px solid $light-color;
         border-radius: 10px;
         background: $bg-light;
-        margin-left: 1rem;
+        margin: 0 1.2rem 0 1.4rem;
   
         .screen,
         .volume {
@@ -115,7 +112,7 @@ body {
 
         .volume {
           text-align: center;
-          font-size: 1rem;
+          font-size: 0.9rem;
         }
       }
       .volume-wrapper,
@@ -130,7 +127,7 @@ body {
         height: 3px;
         background: #E0A7B1;
         outline: none;
-        margin: 2.2rem 0 2.2rem 0.8rem;
+        margin: 2.2rem;
       }
 
       .volume-slider::-webkit-slider-thumb {
@@ -147,7 +144,7 @@ body {
       .bank-wrapper {
         justify-self: flex-end;
         display: flex;
-        margin: 2rem 0 0 1rem;
+        margin: 2rem 1rem 0;
 
         .toggle-text {
           display: inline-flex;
@@ -215,8 +212,6 @@ body {
 .fa-power-off {
   padding: 0;
   text-shadow: $icon-light;
-  margin-right: -1rem;
-  margin-top: -2rem;
   font-size: 25px;
 }
 
