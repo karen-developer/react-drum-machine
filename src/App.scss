@@ -185,7 +185,6 @@ body {
 .footer {  
   color: #ccc;
   align-self: start;
-  margin: 1rem;
   
     a {
       text-decoration: none;
@@ -193,6 +192,11 @@ body {
 
     .karen {
       color: #252525;
+      text-decoration: none;
+    }
+
+    .karen:hover {
+      color: #ccc;
       text-decoration: none;
     }
 }

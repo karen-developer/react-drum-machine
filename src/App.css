@@ -158,13 +158,16 @@ body {
 .footer {
   color: #ccc;
   align-self: start;
-  margin: 1rem;
 }
 .footer a {
   text-decoration: none;
 }
 .footer .karen {
   color: #252525;
+  text-decoration: none;
+}
+.footer .karen:hover {
+  color: #ccc;
   text-decoration: none;
 }
 
