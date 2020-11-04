@@ -33,7 +33,7 @@ body {
     width: 360px;
     padding: 2rem;
     display: grid;
-    margin: auto;
+    margin: 3rem auto;
     border-radius: 10px;
     box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2),
       0 5px 40px rgba(255, 255, 255, 0.2) inset;
@@ -185,6 +185,7 @@ body {
 .footer {  
   color: #ccc;
   align-self: start;
+  margin-top: -2rem;
   
     a {
       text-decoration: none;
