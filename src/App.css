@@ -72,14 +72,6 @@ body {
   justify-content: center;
   margin: auto;
 }
-.App .dashboard-container .control-container h1 {
-  margin: 0;
-  padding: 0;
-  margin: 1.7rem;
-  text-transform: uppercase;
-  font-size: 1.9rem;
-  background: radial-gradient(ellipse at center, #3a3a3a 0%, #000000 70%);
-}
 .App .dashboard-container .control-container .screen-wrapper {
   height: 180px;
   display: flex;
@@ -89,7 +81,7 @@ body {
   border: 2px solid #E0A7B1;
   border-radius: 10px;
   background: radial-gradient(ellipse at center, #3a3a3a 0%, #000000 70%);
-  margin: 0 1.2rem 0 1.4rem;
+  margin: 0 1.3rem 0 1.5rem;
 }
 .App .dashboard-container .control-container .screen-wrapper .screen,
 .App .dashboard-container .control-container .screen-wrapper .volume {
@@ -182,7 +174,8 @@ body {
 .fa-power-off {
   padding: 0;
   text-shadow: 2px 2px 20px #aaa, -2px -2px 20px #aaa, -2px 2px 20px #aaa, 2px -2px 20px #aaa;
-  font-size: 25px;
+  font-size: 32px;
+  margin-bottom: 1.5rem;
 }
 
 #power:checked + .powerLabel .fa-power-off {

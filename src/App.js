@@ -306,7 +306,6 @@ class App extends React.Component {
               </label>
             </div>
           
-            <h1>Beat maker</h1>
             <div className="screen-wrapper" style={this.getBorderStyle()}>
               <div className="screen">{this.state.display}</div>
               <div className="volume">
